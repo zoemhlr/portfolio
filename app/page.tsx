@@ -22,7 +22,7 @@ export default function Page() {
               <h3 className="h3">Bienvenue sur mon portfolio</h3>
               <p>
                 Étudiante à la web@caémie by Epitech, je suis passionnée de développement Frontend. 
-                J'ai également de l'expérience en développement Backend grâce à ma formation et mon expérience professionnelle.
+                J&apos;ai également de l&apos;expérience en développement Backend grâce à ma formation et mon expérience professionnelle.
               </p>
             </div>
 
@@ -54,4 +54,3 @@ export default function Page() {
     </>
   )
 }
-

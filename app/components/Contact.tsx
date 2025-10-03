@@ -58,7 +58,7 @@ export default function Contact() {
         <h3 className="h3">Contact</h3>
 
         <p className="contact-description">
-          J'aimerais beaucoup avoir de vos nouvelles. Cliquez sur le bouton ci-dessous pour m'envoyer un e-mail directement.
+          J&apos;aimerais beaucoup avoir de vos nouvelles. Cliquez sur le bouton ci-dessous pour m&apos;envoyer un e-mail directement.
         </p>
 
         {!open && (
