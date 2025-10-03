@@ -3,6 +3,16 @@
 import { useState } from "react"
 import { projects } from "../data/projects"
 
+type Project = {
+  id: number
+  title: string
+  meta: string
+  img: string
+  github?: string
+  demo?: string
+  description?: string
+}
+
 export default function Projects() {
   const [hovered, setHovered] = useState<number | null>(null)
 
@@ -11,7 +21,7 @@ export default function Projects() {
       <h3 className="h3 projects-title">Projets</h3>
 
       <div className="projects-grid">
-        {projects.map((p) => (
+        {projects.map((p: Project) => (
           <article
             key={p.id}
             role="article"
