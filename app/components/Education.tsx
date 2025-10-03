@@ -6,7 +6,7 @@ export default function Education() {
         <div className="education-degree">Bachelor UX/UI Designer</div>
         <div className="education-institution">ISCOD - 2026-2028</div>
         <p className="education-description">
-            Spécialisation dans la conception d’interfaces centrées utilisateur et l’optimisation de l’expérience digitale..
+            Spécialisation dans la conception d'interfaces centrées utilisateur et l'optimisation de l'expérience digitale.
         </p>
       </div>
 
